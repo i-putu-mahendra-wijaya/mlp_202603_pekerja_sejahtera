@@ -1,0 +1,32 @@
+[project]
+name = "pekerja-sejahtera"
+version = "0.1.0"
+description = "Simple MLP Project for BINUS Course 'Deep Learning and Its Application'"
+authors = [
+    {name = "i-putu-mahendra-wijaya",email = "i.putu.mahendra@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+numpy = "^1.26.0"
+pandas = "^2.2.2"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+kagglehub = "^0.3.13"
+keras = "3.13.2"
+
+# Platform-specific TensorFlow
+# Version 2.16.2 for your Intel Mac (Darwin)
+tensorflow = [
+    { version = "2.16.2", markers = "sys_platform == 'darwin'" },
+    { version = "2.19.0", markers = "sys_platform == 'linux'" }
+]
+ipykernel = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
