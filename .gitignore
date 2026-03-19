@@ -5,6 +5,9 @@
 # Git
 .git
 
+# Dataset
+**/*.csv
+
 # Dependencies
 **/node_modules/
 **/.pnp
