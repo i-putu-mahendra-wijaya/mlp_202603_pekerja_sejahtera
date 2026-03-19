@@ -92,7 +92,7 @@ poetry --version
 ## 3. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone git@github.com:i-putu-mahendra-wijaya/mlp_202603_pekerja_sejahtera.git
 cd mlp_202603_pekerja_sejahtera
 ```
 
